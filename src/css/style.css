@@ -1,0 +1,107 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    max-width: 100%;
+    background-color: var(--primary-pale);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+}
+
+.main .section{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.main .section img{
+    border-radius: 20px 20px 0 0;
+}
+
+.main .section .info{
+    padding: 40px;
+}
+
+.main .section .info .title, .text{
+    text-align: center;
+    margin: 0px 10px 25px;
+}
+
+.main .section .info .title{
+    font-weight: 900;
+}
+
+.main .section .info .text{
+    color: var(--neutral-desaturated);
+}
+
+.main .section .info .plan-price{
+    display: flex;
+    align-items: center;
+    background-color: var(--neutral-very-pale);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.main .section .info .plan-price img{
+    margin-right: 20px;
+}
+
+.main .section .info .plan-price .plan-change{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .section .info .plan-price .plan-change .price-year{
+    color: var(--neutral-desaturated);
+}
+
+.main .section .info .plan-price .change{
+    color: var(--primary-bright);
+}
+
+.main .section .info .plan-price .change:hover{
+    color: var(--neutral-dark);
+    transition: 0.4s ease-in-out;
+}
+
+.main .section .info .pay-cancel{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .section .info .pay-cancel .pay, .cancel{
+    text-align: center;
+}
+
+.main .section .info .pay-cancel .pay{
+    padding: 12px;
+    color: #fff;
+    background-color: var(--primary-bright);
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px var(--neutral-dark);
+    margin-bottom: 20px;
+}
+
+.main .section .info .pay-cancel .pay:hover{
+    background-color: var(--neutral-desaturated);
+    transition: 0.4s ease-in-out;
+}
+
+.main .section .info .pay-cancel .cancel{
+    color: var(--neutral-desaturated);
+}
+
+.main .section .info .pay-cancel .cancel:hover{
+    color: var(--neutral-dark);
+    transition: 0.4s ease-in-out;
+}
+
+
