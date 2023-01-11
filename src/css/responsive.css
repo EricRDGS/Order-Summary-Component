@@ -1,0 +1,14 @@
+@media(max-width: 500px){
+    .main{
+        height: 100vh;
+    }
+
+    .main .section{
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .main .section .info{
+        padding: 20px;
+    }
+}
